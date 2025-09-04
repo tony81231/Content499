@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Your Content Marketing Business for Just ₹499 | Make Money Online in 24 Hours</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* Header with urgency */
+        .header-banner {
+            background: linear-gradient(45deg, #ff6b35, #ff8e53);
+            color: white;
+            text-align: center;
+            padding: 12px 10px;
+            font-weight: bold;
+            animation: pulse 2s infinite;
+            font-size: 0.9rem;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.8; }
+            100% { opacity: 1; }
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><polygon fill="%23ffffff08" points="0,0 1000,300 1000,1000 0,700"/></svg>') no-repeat;
+            background-size: cover;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            line-height: 1.2;
+        }
+
+        .hero-subtitle {
+            font-size: 1.4rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .price-highlight {
+            background: #ff6b35;
+            padding: 20px 35px;
+            border-radius: 50px;
+            display: inline-block;
+            margin: 30px 0;
+            font-size: 1.8rem;
+            font-weight: bold;
+            box-shadow: 0 10px 30px rgba(255, 107, 53, 0.4);
+            transform: scale(1);
+            transition: transform 0.3s ease;
+        }
+
+        .price-highlight:hover {
+            transform: scale(1.05);
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            font-size: 1rem;
+            opacity: 0.7;
+            margin-right: 15px;
+        }
+
+        .cta-button {
+            background: #ff6b35;
+            color: white;
+            padding: 18px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(255, 107, 53, 0.4);
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 107, 53, 0.6);
+        }
+
+        /* Trust Indicators */
+        .trust-bar {
+            background: #f8f9fa;
+            padding: 25px 0;
+            text-align: center;
+        }
+
+        .trust-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            align-items: center;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-weight: 600;
+            color: #28a745;
+            font-size: 0.9rem;
+        }
+
+        .trust-item i {
+            font-size: 1.3rem;
+        }
+
+        /* Problem & Solution */
+        .problem-section {
+            padding: 60px 0;
+            background: #fff;
+        }
+
+        .problem-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 50px;
+            align-items: start;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .section-header p {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .problems-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+        }
+
+        .pain-point {
+            background: #fff5f5;
+            border-left: 4px solid #ff6b35;
+            padding: 25px;
+            border-radius: 0 15px 15px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .pain-point h4 {
+            color: #ff6b35;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .solutions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .solution-point {
+            background: #f0fff4;
+            border-left: 4px solid #28a745;
+            padding: 25px;
+            border-radius: 0 15px 15px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .solution-point h4 {
+            color: #28a745;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        /* Features Section */
+        .features-section {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 60px 0;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 30px 25px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            border: 1px solid #eee;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+
+        .feature-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .feature-value {
+            color: #ff6b35;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .feature-card p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 60px 0;
+            background: #fff;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .testimonial-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 20px;
+            border-left: 5px solid #667eea;
+            position: relative;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 15px;
+            line-height: 1.7;
+            font-size: 0.95rem;
+        }
+
+        .testimonial-author {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 0.9rem;
+        }
+
+        .verified {
+            color: #28a745;
+            font-weight: bold;
+            font-size: 0.8rem;
+            margin-top: 5px;
+        }
+
+        /* Urgency Section */
+        .urgency-section {
+            background: linear-gradient(45deg, #ff6b35, #ff8e53);
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .countdown {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 25px 0;
+            flex-wrap: wrap;
+        }
+
+        .countdown-item {
+            background: rgba(255,255,255,0.2);
+            padding: 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            min-width: 70px;
+        }
+
+        .countdown-number {
+            font-size: 1.8rem;
+            font-weight: bold;
+            display: block;
+        }
+
+        .countdown-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        /* Risk Reversal */
+        .guarantee {
+            padding: 50px 0;
+            background: #f8f9fa;
+            text-align: center;
+        }
+
+        .guarantee-badge {
+            background: #28a745;
+            color: white;
+            padding: 25px;
+            border-radius: 50%;
+            display: inline-block;
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+        }
+
+        /* FAQ */
+        .faq-section {
+            padding: 60px 0;
+            background: white;
+        }
+
+        .faq-item {
+            margin-bottom: 15px;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            background: #f8f9fa;
+            padding: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            user-select: none;
+            font-size: 0.95rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: #667eea;
+        }
+
+        .faq-item.active .faq-question::after {
+            content: '-';
+        }
+
+        .faq-answer {
+            padding: 20px;
+            display: none;
+            background: white;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        /* Final CTA */
+        .final-cta {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .bonus-highlight {
+            background: rgba(255,255,255,0.1);
+            padding: 25px;
+            border-radius: 20px;
+            margin: 25px 0;
+            backdrop-filter: blur(10px);
+        }
+
+        .bonus-list {
+            text-align: left;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        .bonus-list p {
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 40px 0;
+                min-height: 80vh;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+                line-height: 1.3;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .price-highlight {
+                font-size: 1.5rem;
+                padding: 18px 30px;
+            }
+            
+            .section-header h2 {
+                font-size: 2rem;
+            }
+            
+            .trust-items {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+            }
+            
+            .trust-item {
+                font-size: 0.8rem;
+            }
+            
+            .problems-grid,
+            .solutions-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .countdown {
+                gap: 10px;
+            }
+            
+            .countdown-item {
+                min-width: 60px;
+                padding: 15px;
+            }
+            
+            .countdown-number {
+                font-size: 1.5rem;
+            }
+            
+            .header-banner {
+                font-size: 0.8rem;
+                padding: 10px;
+            }
+            
+            .cta-button {
+                padding: 16px 30px;
+                font-size: 1.1rem;
+            }
+            
+            .container {
+                padding: 0 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+            
+            .trust-items {
+                grid-template-columns: 1fr;
+            }
+            
+            .countdown {
+                flex-direction: row;
+                justify-content: center;
+            }
+            
+            .price-highlight {
+                font-size: 1.3rem;
+                padding: 15px 25px;
+            }
+        }
+
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25d366;
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 1.5rem;
+            box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4);
+            z-index: 1000;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .whatsapp-button {
+                bottom: 15px;
+                right: 15px;
+                padding: 12px;
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Urgency Header -->
+    <div class="header-banner">
+        🚨 Limited Time: Only ₹499 (Regular ₹2999) | Just 50 Copies Left! 🚨
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Start Your Content Marketing Business for Just ₹499!</h1>
+                <p class="hero-subtitle">Generate Income in 24 Hours - No Experience Required!</p>
+                
+                <div class="price-highlight">
+                    <span class="old-price">₹2999</span>
+                    <span>Only ₹499/-</span>
+                </div>
+                
+                <a href="https://spf.bio/gDZca" class="cta-button">
+                    🚀 Get Instant Access Now
+                </a>
+                
+                <p style="margin-top: 20px; font-size: 0.9rem; opacity: 0.9;">
+                    ✅ Instant Download ✅ 100% Money Back Guarantee ✅ Lifetime Access
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <section class="trust-bar">
+        <div class="container">
+            <div class="trust-items">
+                <div class="trust-item">
+                    <i class="fas fa-users"></i>
+                    <span>5000+ Happy Students</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>100% Secure Payment</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-download"></i>
+                    <span>Instant Download</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 Support</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem & Solution -->
+    <section class="problem-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Are You Struggling With These Problems?</h2>
+                <p>You're not alone. Thousands of Indians face these exact challenges every day.</p>
+            </div>
+            
+            <div class="problems-grid">
+                <div class="pain-point">
+                    <h4>😰 Stuck in a Job, Need Extra Income?</h4>
+                    <p>Rising expenses but the same salary. EMIs, bills, and family needs require additional income sources.</p>
+                </div>
+                
+                <div class="pain-point">
+                    <h4>🤔 Want to Start Business but Don't Know How?</h4>
+                    <p>Many ideas but confused about where to start, what to sell, how to sell. Fear of big investments.</p>
+                </div>
+                
+                <div class="pain-point">
+                    <h4>💸 Looking for Low-Investment Opportunities?</h4>
+                    <p>Can't risk lakhs of rupees. Want something that works with minimal investment but maximum returns.</p>
+                </div>
+                
+                <div class="pain-point">
+                    <h4>⏰ No Time for Long Learning Curves?</h4>
+                    <p>Need something that works quickly. Can't spend months learning complex systems.</p>
+                </div>
+            </div>
+
+            <div class="section-header" style="margin-top: 50px;">
+                <h2>🎯 Here's Your Complete Solution!</h2>
+                <p>Everything you need to start earning within 24 hours</p>
+            </div>
+            
+            <div class="solutions-grid">
+                <div class="solution-point">
+                    <h4>✅ Ready-Made Business System</h4>
+                    <p>Everything prepared - Sales Pages, Videos, Graphics. Just download and start selling!</p>
+                </div>
+                
+                <div class="solution-point">
+                    <h4>✅ Step-by-Step Video Training</h4>
+                    <p>Complete training in simple English. Shows exactly what to do and how to do it.</p>
+                </div>
+                
+                <div class="solution-point">
+                    <h4>✅ Keep 100% Profits</h4>
+                    <p>Whatever you sell, entire profit is yours! No commissions, no royalties to pay.</p>
+                </div>
+                
+                <div class="solution-point">
+                    <h4>✅ Start with Just ₹499</h4>
+                    <p>Complete business setup for less than a pizza cost! Minimal risk, maximum potential.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>What You Get Inside (Total Value ₹25,000+)</h2>
+                <p>Complete business-in-a-box solution with everything included</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎥</div>
+                    <h3>Complete Video Training Course</h3>
+                    <p class="feature-value">Value: ₹5,000</p>
+                    <p>Step-by-step videos teaching content marketing from beginner to expert level. Easy-to-follow modules.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Ready Sales & Legal Pages</h3>
+                    <p class="feature-value">Value: ₹8,000</p>
+                    <p>Professional sales pages, privacy policy, terms & conditions - everything ready! Copy-paste and use.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎬</div>
+                    <h3>High-Converting Sales Video</h3>
+                    <p class="feature-value">Value: ₹3,000</p>
+                    <p>Professional sales video that convinces customers. Can increase your conversion rate by 300%.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Resell Rights (100% Profit)</h3>
+                    <p class="feature-value">Value: ₹2,000</p>
+                    <p>Right to resell this entire package! Whatever you sell, keep all the profit for yourself.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📧</div>
+                    <h3>Email Marketing Templates</h3>
+                    <p class="feature-value">Value: ₹4,000</p>
+                    <p>Proven email templates and squeeze page designs. Build your customer list and make more sales.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Professional Graphics & Audio</h3>
+                    <p class="feature-value">Value: ₹3,000</p>
+                    <p>Studio-quality graphics, logos, banners, and audio files. Everything to build a professional brand.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Are Saying 🌟</h2>
+                <p>Real results from real people just like you</p>
+            </div>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "I thought online business was very difficult. But with this package, I earned ₹12,000 in just 15 days. Everything is ready-made, just had to follow the steps!"
+                    </div>
+                    <div class="testimonial-author">- Rahul Sharma, Delhi</div>
+                    <div class="verified">✅ Verified Purchase</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Started this as a side business along with my job. Now earning ₹25,000-30,000 extra every month. Best investment I ever made!"
+                    </div>
+                    <div class="testimonial-author">- Priya Patel, Mumbai</div>
+                    <div class="verified">✅ Verified Purchase</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "I'm a college student who needed pocket money. Now earning ₹8,000-10,000 monthly with this package. Even helping my parents financially!"
+                    </div>
+                    <div class="testimonial-author">- Aditya Gupta, Pune</div>
+                    <div class="verified">✅ Verified Purchase</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Urgency Section -->
+    <section class="urgency-section">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; margin-bottom: 20px;">⏰ This Offer Expires Soon!</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 20px;">Special ₹499 price only for first 50 customers!</p>
+            
+            <div class="countdown" id="countdown">
+                <div class="countdown-item">
+                    <span class="countdown-number" id="hours">05</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="minutes">23</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="seconds">45</span>
+                    <span class="countdown-label">Seconds</span>
+                </div>
+            </div>
+            
+            <p style="font-size: 1rem; margin-top: 20px; opacity: 0.9;">
+                After timer expires, price goes back to ₹2999!
+            </p>
+        </div>
+    </section>
+
+    <!-- Guarantee Section -->
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee-badge">
+                <i class="fas fa-shield-alt"></i>
+            </div>
+            <h2 style="font-size: 2.2rem; margin-bottom: 20px; color: #28a745;">
+                100% Money Back Guarantee!
+            </h2>
+            <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">
+                If you're not satisfied within 30 days, get full refund! No questions asked, no hassle. 
+                We're confident this package will change your life.
+            </p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions 🤔</h2>
+                <p>Got questions? We've got answers!</p>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Does this package really work?</div>
+                <div class="faq-answer">
+                    Yes! Thousands of people are using this to make money. It's a proven system that works if you take action.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">I'm a complete beginner, can I do this?</div>
+                <div class="faq-answer">
+                    Absolutely! This package is designed for beginners. Step-by-step video training explains everything in simple terms.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">How much time does setup take?</div>
+                <div class="faq-answer">
+                    Just 2-3 hours! Everything is ready-made. You just need to download and copy-paste, that's it.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Are there any monthly fees or hidden charges?</div>
+                <div class="faq-answer">
+                    No! Just one-time payment of ₹499. No monthly fees, no hidden charges whatsoever.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Can I do this from mobile or do I need a laptop?</div>
+                <div class="faq-answer">
+                    You can work from mobile too, but laptop/computer will be more comfortable and give better workflow.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">What if I need help or support?</div>
+                <div class="faq-answer">
+                    We provide 24/7 email support and WhatsApp support for all our customers. You're never alone!
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; margin-bottom: 30px;">
+                🎉 Special Launch Bonus Worth ₹5000 - FREE!
+            </h2>
+            
+            <div class="bonus-highlight">
+                <h3 style="margin-bottom: 20px;">Order Today & Get These Bonuses FREE:</h3>
+                <div class="bonus-list">
